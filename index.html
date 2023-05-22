@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+
+</head>
+<body class="flex flex-col items-center justify-center p-2 m-2 bg-gradient-to-tl from-SoftViolet to-SoftBlue">
+  <main class="items-center justify-between w-full p-2 m-2 md:flex">
+    <section class="w-full bg-LightGrayishBlue max-h-max">
+      <div class="w-full">
+        <picture>
+          <source media="max-width:640px" srcset="images/bg-pattern-mobile.svg">
+          <source media="min-width:640px" srcset="images/bg-pattern-desktop.svg">
+          <img src="images/bg-pattern-mobile.svg" alt="woman-mobile" class="h-full max-w-screen-lg">
+        </picture>
+      </div>
+      <div class="w-full">
+        <picture>
+          <source media="max-width:640px" srcset="images/illustration-woman-online-mobile">
+          <source media="min-width:640px" srcset="images/illustration-woman-online-desktop">
+          <img src="images/illustration-woman-online-mobile.svg" alt="box-mobile" class="h-full max-w-screen-lg"> 
+        </picture>
+      </div>
+    </section>
+    
+
+    <section class="w-full h-full bg-LightGrayishBlue">
+      <article class="flex flex-col justify-center">
+        <div class="flex items-center justify-center">
+          <h1 class="p-2 m-2 text-2xl font-Kumbh Sans text-VeryDarkGrayishBlue bold">FAQ</h1>
+        </div>
+      </article>
+      
+      <section class="flex flex-col justify-center w-full p-2 border-b border-DarkGrayishBlue">
+        <ul>
+          <li class="">
+            <div id="label" class="flex items-start justify-around cursor-pointer">
+              <p class="text-lg border text-DarkGrayishBlue font-Kumbh Sans hover:text-SoftRed bold">How many team members can i invite?</p> 
+               <img src="images/icon-arrow-down.svg" alt="arrow-pointer" class="w-6 ml-10 arrowIcon">              
+            </div>
+            <div id="content" class="flex items-start invisible p-2 cursor-pointer">
+              <p class="ml-8 text-lg font-Kumbh Sans text-DarkGrayishBlue">Lorem, ipsum dolor sit amet consectetur adipisicing elitt?</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      
+      <section class="flex flex-col justify-center w-full p-2 border-b border-DarkGrayishBlue">
+        <ul>
+          <li class="">
+            <div id="label" class="flex items-start justify-around cursor-pointer">
+              <p class="text-lg font-Kumbh Sans text-DarkGrayishBlue hover:text-SoftRed bold">What is the maximum file upload size?</p>
+              <img src="images/icon-arrow-down.svg" alt="arrow-pointer" class="w-6 ml-10 arrowIcon">
+            </div>
+            <div id="content" class="flex items-start invisible cursor-pointer">
+              <p class="ml-8 text-lg font-Kumbh Sans text-DarkGrayishBlue">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      
+      <section class="flex flex-col justify-center w-full p-2 border border-b-DarkGrayishBlue">
+        <ul>
+          <li class="">
+            <div id="label" class="flex items-start justify-around cursor-pointer">
+              <p class="text-lg border font-Kumbh Sans text-DarkGrayishBlue hover:text-SoftRed bold">How do I reset my password?</p>
+              <img src="images/icon-arrow-down.svg" alt="arrow-pointer" class="w-6 ml-10 arrowIcon">
+            </div>
+            <div id="content" class="flex items-start invisible p-2 cursor-pointer">
+              <p class="ml-8 text-lg font-Kumbh Sans text-DarkGrayishBlue">Yes! Send us a message and we’ll process your request no questions asked.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      
+      <section class="flex flex-col justify-center w-full p-2 border-b border-DarkGrayishBlue">
+        <ul>
+          <li class="">
+            <div id="label" class="flex items-start justify-around cursor-pointer">
+              <p class="text-lg border font-Kumbh Sans text-DarkGrayishBlue hover:text-SoftRed bold">Can I cancel my subscription?</p>
+              <img src="images/icon-arrow-down.svg" alt="arrow-pointer" class="w-6 ml-10 arrowIcon">
+            </div>
+            <div id="content" class="flex items-start invisible cursor-pointer">
+              <p class="ml-8 text-lg font-Kumbh Sans text-DarkGrayishBlue">Yes! Send us a message and we’ll process your request no questions asked.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="flex flex-col justify-center w-full p-2 border-b border-DarkGrayishBlue">
+        <ul>
+          <li class="">
+            <div id="label" class="flex items-start justify-around cursor-pointer">
+              <p class="text-lg border font-Kumbh Sans text-DarkGrayishBlue hover:text-SoftRed bold">Do you provide additional support?</p>
+              <img src="images/icon-arrow-down.svg" alt="arrow-pointer" class="w-6 ml-10 arrowIcon">
+            </div>
+            <div id="content" class="flex items-start invisible cursor-pointer">
+              <p class="ml-8 text-lg font-Kumbh Sans text-DarkGrayishBlue"> Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+            </div>
+          </li>
+        </ul>
+      </section>     
+    </section>
+    
+  </main>      
+  
+  
+
+  
+  
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tonderai Dzvova</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
